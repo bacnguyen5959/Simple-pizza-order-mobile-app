@@ -1,0 +1,492 @@
+[
+  {
+    "id": "1",
+    "name": "Italian Supreme",
+    "description": "Pizza Sauce, Tomato, Green Pepper, Black Olives, Beef Pepperoni, Parsley, Sun Dried Tomato, Mozzarella Cheese",
+    "categoryId": "1",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400",
+    "basePrice": 19.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Select Size",
+        "required": true,
+        "choices": [
+          { "id": "large", "name": "Large 13,5\"", "price": 19.99 },
+          { "id": "small", "name": "Small 9.5\"", "price": 10.99 },
+          { "id": "medium", "name": "Medium 11.5\"", "price": 15.99 }
+        ]
+      },
+      {
+        "id": "crust",
+        "name": "Crust Type",
+        "required": true,
+        "choices": [
+          { "id": "regular", "name": "Regular Crust", "price": 0 },
+          { "id": "thin", "name": "Thin & Crispy", "price": 0 },
+          { "id": "thick", "name": "Thick Crust", "price": 1.50 },
+          { "id": "stuffed", "name": "Cheese Stuffed Crust", "price": 3.00 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "extra-cheese", "name": "Extra Cheese", "price": 1.50 },
+      { "id": "pepperoni", "name": "Extra Pepperoni", "price": 2.00 },
+      { "id": "mushrooms", "name": "Mushrooms", "price": 1.00 },
+      { "id": "olives", "name": "Black Olives", "price": 1.00 },
+      { "id": "onions", "name": "Onions", "price": 0.75 },
+      { "id": "bell-peppers", "name": "Bell Peppers", "price": 1.00 }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Kimci BBQ Chicken",
+    "description": "BBQ Sauce, Chicken, Kimchi, Onions, Mozzarella Cheese",
+    "categoryId": "1",
+    "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400",
+    "basePrice": 19.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Select Size",
+        "required": true,
+        "choices": [
+          { "id": "large", "name": "Large 13,5\"", "price": 19.99 },
+          { "id": "small", "name": "Small 9.5\"", "price": 10.99 },
+          { "id": "medium", "name": "Medium 11.5\"", "price": 15.99 }
+        ]
+      },
+      {
+        "id": "crust",
+        "name": "Crust Type",
+        "required": true,
+        "choices": [
+          { "id": "regular", "name": "Regular Crust", "price": 0 },
+          { "id": "thin", "name": "Thin & Crispy", "price": 0 },
+          { "id": "thick", "name": "Thick Crust", "price": 1.50 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "extra-cheese", "name": "Extra Cheese", "price": 1.50 },
+      { "id": "chicken", "name": "Extra Chicken", "price": 2.50 },
+      { "id": "kimchi", "name": "Extra Kimchi", "price": 1.50 }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Peri-Peri Chicken",
+    "description": "Peri-Peri Sauce, Chicken, Bell Peppers, Onions, Mozzarella Cheese",
+    "categoryId": "1",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400",
+    "basePrice": 19.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Select Size",
+        "required": true,
+        "choices": [
+          { "id": "large", "name": "Large 13,5\"", "price": 19.99 },
+          { "id": "small", "name": "Small 9.5\"", "price": 10.99 },
+          { "id": "medium", "name": "Medium 11.5\"", "price": 15.99 }
+        ]
+      },
+      {
+        "id": "crust",
+        "name": "Crust Type",
+        "required": true,
+        "choices": [
+          { "id": "regular", "name": "Regular Crust", "price": 0 },
+          { "id": "thin", "name": "Thin & Crispy", "price": 0 },
+          { "id": "thick", "name": "Thick Crust", "price": 1.50 }
+        ]
+      },
+      {
+        "id": "spice",
+        "name": "Spice Level",
+        "required": true,
+        "choices": [
+          { "id": "mild", "name": "Mild", "price": 0 },
+          { "id": "medium", "name": "Medium", "price": 0 },
+          { "id": "hot", "name": "Hot", "price": 0 },
+          { "id": "extra-hot", "name": "Extra Hot", "price": 0 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "extra-cheese", "name": "Extra Cheese", "price": 1.50 },
+      { "id": "chicken", "name": "Extra Chicken", "price": 2.50 },
+      { "id": "jalapenos", "name": "Jalapeños", "price": 1.00 }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Margherita Classic",
+    "description": "Tomato Sauce, Fresh Mozzarella, Basil, Olive Oil",
+    "categoryId": "1",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400",
+    "basePrice": 14.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Select Size",
+        "required": true,
+        "choices": [
+          { "id": "large", "name": "Large 13,5\"", "price": 14.99 },
+          { "id": "small", "name": "Small 9.5\"", "price": 8.99 },
+          { "id": "medium", "name": "Medium 11.5\"", "price": 11.99 }
+        ]
+      },
+      {
+        "id": "crust",
+        "name": "Crust Type",
+        "required": true,
+        "choices": [
+          { "id": "regular", "name": "Regular Crust", "price": 0 },
+          { "id": "thin", "name": "Thin & Crispy", "price": 0 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "extra-cheese", "name": "Extra Mozzarella", "price": 1.50 },
+      { "id": "basil", "name": "Extra Basil", "price": 0.50 },
+      { "id": "tomatoes", "name": "Cherry Tomatoes", "price": 1.00 }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Spaghetti Carbonara",
+    "description": "Creamy sauce, Bacon, Parmesan, Black Pepper, Egg Yolk",
+    "categoryId": "2",
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=400",
+    "basePrice": 12.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Portion Size",
+        "required": true,
+        "choices": [
+          { "id": "regular", "name": "Regular", "price": 12.99 },
+          { "id": "large", "name": "Large", "price": 16.99 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "extra-bacon", "name": "Extra Bacon", "price": 2.00 },
+      { "id": "parmesan", "name": "Extra Parmesan", "price": 1.00 },
+      { "id": "garlic-bread", "name": "Garlic Bread", "price": 3.50 }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Fettuccine Alfredo",
+    "description": "Creamy Alfredo sauce, Parmesan cheese, Butter, Garlic",
+    "categoryId": "2",
+    "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=400",
+    "basePrice": 13.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Portion Size",
+        "required": true,
+        "choices": [
+          { "id": "regular", "name": "Regular", "price": 13.99 },
+          { "id": "large", "name": "Large", "price": 17.99 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "chicken", "name": "Grilled Chicken", "price": 3.50 },
+      { "id": "shrimp", "name": "Shrimp", "price": 4.50 },
+      { "id": "broccoli", "name": "Broccoli", "price": 1.50 },
+      { "id": "garlic-bread", "name": "Garlic Bread", "price": 3.50 }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Penne Arrabbiata",
+    "description": "Spicy tomato sauce, Garlic, Red chili peppers, Parsley",
+    "categoryId": "2",
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400",
+    "basePrice": 11.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Portion Size",
+        "required": true,
+        "choices": [
+          { "id": "regular", "name": "Regular", "price": 11.99 },
+          { "id": "large", "name": "Large", "price": 15.99 }
+        ]
+      },
+      {
+        "id": "spice",
+        "name": "Spice Level",
+        "required": true,
+        "choices": [
+          { "id": "mild", "name": "Mild", "price": 0 },
+          { "id": "medium", "name": "Medium", "price": 0 },
+          { "id": "hot", "name": "Hot", "price": 0 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "parmesan", "name": "Extra Parmesan", "price": 1.00 },
+      { "id": "olives", "name": "Black Olives", "price": 1.00 },
+      { "id": "garlic-bread", "name": "Garlic Bread", "price": 3.50 }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Lasagna Bolognese",
+    "description": "Layers of pasta, Beef Bolognese, Béchamel sauce, Mozzarella",
+    "categoryId": "2",
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=400",
+    "basePrice": 14.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Portion Size",
+        "required": true,
+        "choices": [
+          { "id": "regular", "name": "Regular", "price": 14.99 },
+          { "id": "large", "name": "Large", "price": 18.99 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "extra-cheese", "name": "Extra Cheese", "price": 1.50 },
+      { "id": "garlic-bread", "name": "Garlic Bread", "price": 3.50 },
+      { "id": "side-salad", "name": "Side Salad", "price": 4.00 }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Coca Cola",
+    "description": "Classic Coca Cola - Refreshing carbonated soft drink",
+    "categoryId": "3",
+    "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400",
+    "basePrice": 2.50,
+    "options": [
+      {
+        "id": "size",
+        "name": "Size",
+        "required": true,
+        "choices": [
+          { "id": "small", "name": "Small 330ml", "price": 2.50 },
+          { "id": "medium", "name": "Medium 500ml", "price": 3.50 },
+          { "id": "large", "name": "Large 1L", "price": 4.99 }
+        ]
+      },
+      {
+        "id": "temperature",
+        "name": "Temperature",
+        "required": true,
+        "choices": [
+          { "id": "cold", "name": "Cold", "price": 0 },
+          { "id": "room", "name": "Room Temperature", "price": 0 }
+        ]
+      }
+    ],
+    "addons": []
+  },
+  {
+    "id": "10",
+    "name": "Pepsi",
+    "description": "Pepsi Cola - Bold and refreshing cola taste",
+    "categoryId": "3",
+    "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+    "basePrice": 2.50,
+    "options": [
+      {
+        "id": "size",
+        "name": "Size",
+        "required": true,
+        "choices": [
+          { "id": "small", "name": "Small 330ml", "price": 2.50 },
+          { "id": "medium", "name": "Medium 500ml", "price": 3.50 },
+          { "id": "large", "name": "Large 1L", "price": 4.99 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "ice", "name": "Extra Ice", "price": 0 },
+      { "id": "lemon", "name": "Lemon Slice", "price": 0.50 }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Orange Juice",
+    "description": "Fresh squeezed orange juice - 100% natural",
+    "categoryId": "3",
+    "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400",
+    "basePrice": 4.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Size",
+        "required": true,
+        "choices": [
+          { "id": "small", "name": "Small 250ml", "price": 4.99 },
+          { "id": "medium", "name": "Medium 400ml", "price": 6.99 },
+          { "id": "large", "name": "Large 600ml", "price": 8.99 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "ice", "name": "With Ice", "price": 0 },
+      { "id": "no-pulp", "name": "No Pulp", "price": 0 }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Iced Coffee",
+    "description": "Cold brew coffee with ice - Smooth and refreshing",
+    "categoryId": "3",
+    "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400",
+    "basePrice": 4.50,
+    "options": [
+      {
+        "id": "size",
+        "name": "Size",
+        "required": true,
+        "choices": [
+          { "id": "small", "name": "Small 12oz", "price": 4.50 },
+          { "id": "medium", "name": "Medium 16oz", "price": 5.50 },
+          { "id": "large", "name": "Large 20oz", "price": 6.50 }
+        ]
+      },
+      {
+        "id": "milk",
+        "name": "Milk Type",
+        "required": true,
+        "choices": [
+          { "id": "regular", "name": "Regular Milk", "price": 0 },
+          { "id": "almond", "name": "Almond Milk", "price": 0.50 },
+          { "id": "oat", "name": "Oat Milk", "price": 0.50 },
+          { "id": "none", "name": "No Milk", "price": 0 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "extra-shot", "name": "Extra Shot", "price": 1.00 },
+      { "id": "vanilla", "name": "Vanilla Syrup", "price": 0.75 },
+      { "id": "caramel", "name": "Caramel Syrup", "price": 0.75 }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Classic Burger",
+    "description": "Beef patty, Lettuce, Tomato, Onion, Pickles, Special sauce",
+    "categoryId": "4",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+    "basePrice": 9.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Patty Size",
+        "required": true,
+        "choices": [
+          { "id": "single", "name": "Single Patty", "price": 9.99 },
+          { "id": "double", "name": "Double Patty", "price": 13.99 },
+          { "id": "triple", "name": "Triple Patty", "price": 16.99 }
+        ]
+      },
+      {
+        "id": "cooking",
+        "name": "Cooking Level",
+        "required": true,
+        "choices": [
+          { "id": "well-done", "name": "Well Done", "price": 0 },
+          { "id": "medium", "name": "Medium", "price": 0 },
+          { "id": "medium-rare", "name": "Medium Rare", "price": 0 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "cheese", "name": "Cheese", "price": 1.00 },
+      { "id": "bacon", "name": "Bacon", "price": 2.00 },
+      { "id": "avocado", "name": "Avocado", "price": 1.50 },
+      { "id": "egg", "name": "Fried Egg", "price": 1.50 },
+      { "id": "fries", "name": "French Fries", "price": 3.50 }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Chicken Burger",
+    "description": "Crispy chicken breast, Lettuce, Mayo, Tomato",
+    "categoryId": "4",
+    "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=400",
+    "basePrice": 8.99,
+    "options": [
+      {
+        "id": "style",
+        "name": "Chicken Style",
+        "required": true,
+        "choices": [
+          { "id": "crispy", "name": "Crispy Fried", "price": 8.99 },
+          { "id": "grilled", "name": "Grilled", "price": 8.99 },
+          { "id": "spicy", "name": "Spicy Crispy", "price": 9.99 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "cheese", "name": "Cheese", "price": 1.00 },
+      { "id": "bacon", "name": "Bacon", "price": 2.00 },
+      { "id": "coleslaw", "name": "Coleslaw", "price": 1.00 },
+      { "id": "fries", "name": "French Fries", "price": 3.50 }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Veggie Burger",
+    "description": "Plant-based patty, Lettuce, Tomato, Avocado, Vegan mayo",
+    "categoryId": "4",
+    "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360?w=400",
+    "basePrice": 10.99,
+    "options": [
+      {
+        "id": "patty",
+        "name": "Patty Type",
+        "required": true,
+        "choices": [
+          { "id": "beyond", "name": "Beyond Meat", "price": 10.99 },
+          { "id": "impossible", "name": "Impossible Burger", "price": 11.99 },
+          { "id": "veggie", "name": "Veggie Patty", "price": 9.99 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "vegan-cheese", "name": "Vegan Cheese", "price": 1.50 },
+      { "id": "avocado", "name": "Extra Avocado", "price": 1.50 },
+      { "id": "mushrooms", "name": "Grilled Mushrooms", "price": 1.50 },
+      { "id": "fries", "name": "French Fries", "price": 3.50 }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "BBQ Bacon Burger",
+    "description": "Beef patty, BBQ sauce, Bacon, Cheddar cheese, Onion rings",
+    "categoryId": "4",
+    "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=400",
+    "basePrice": 12.99,
+    "options": [
+      {
+        "id": "size",
+        "name": "Patty Size",
+        "required": true,
+        "choices": [
+          { "id": "single", "name": "Single Patty", "price": 12.99 },
+          { "id": "double", "name": "Double Patty", "price": 16.99 }
+        ]
+      }
+    ],
+    "addons": [
+      { "id": "extra-bacon", "name": "Extra Bacon", "price": 2.00 },
+      { "id": "extra-cheese", "name": "Extra Cheese", "price": 1.00 },
+      { "id": "jalapenos", "name": "Jalapeños", "price": 1.00 },
+      { "id": "fries", "name": "French Fries", "price": 3.50 },
+      { "id": "onion-rings", "name": "Onion Rings", "price": 4.00 }
+    ]
+  }
+]

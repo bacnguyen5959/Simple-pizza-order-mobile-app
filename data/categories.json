@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "name": "Pizza",
+    "slug": "pizza"
+  },
+  {
+    "id": "2",
+    "name": "Pasta",
+    "slug": "pasta"
+  },
+  {
+    "id": "3",
+    "name": "Drinks",
+    "slug": "drinks"
+  },
+  {
+    "id": "4",
+    "name": "Burgers",
+    "slug": "burgers"
+  },
+  {
+    "id": "5",
+    "name": "Chicken",
+    "slug": "chicken"
+  }
+]
